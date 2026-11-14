@@ -2298,6 +2298,28 @@
         "similar-language",
         "functional-evidence"
       ]
+    },
+    {
+      "id": "release-kk-body",
+      "text": "Енді оқырмандар абзацты кейінірек қайта оқу үшін сақтап қоя алады. Браузерді жапсаңыз да, бетті қайта ашқанда сақталған мәтін орнында қалады.",
+      "languages": [
+        "kk"
+      ],
+      "tags": [
+        "native-body",
+        "holdout"
+      ]
+    },
+    {
+      "id": "release-kk-title",
+      "text": "Сақталған абзацтарды қайта оқыңыз",
+      "languages": [
+        "kk"
+      ],
+      "tags": [
+        "native-title",
+        "holdout"
+      ]
     }
   ]
 }

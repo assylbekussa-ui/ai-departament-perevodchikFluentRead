@@ -47,7 +47,7 @@ function measureCoverage(items: readonly ReleaseCorpusCase[]) {
 
 describe('目标语言发行说明语料', () => {
     it('独立语料覆盖全部目录目标，短标题和自然段落各有一例，id 与语言标注有效', () => {
-        expect(targets).toHaveLength(52);
+        expect(targets).toHaveLength(53);
         expect(new Set(allCases.map(item => item.id)).size).toBe(allCases.length);
         for (const target of targets) {
             expect(cases.some(item => item.languages.includes(target) && item.tags.includes('native-body')), target).toBe(true);

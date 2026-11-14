@@ -13,6 +13,8 @@
 | Казахский (`kk`) добавлен в список языков перевода, с подписями на всех языках интерфейса | `src/core/language/catalog.ts`, `src/core/config/catalog.ts` |
 | Интерфейс по умолчанию — русский, перевод по умолчанию — на русский | `src/core/config/catalog.ts` (`defaultOption`) |
 | Название «AI Департамент Переводчик» и иконка | `src/core/i18n/messages/*.ts` (`common.brand`), `public/icon/*` |
+| Для ИИ-моделей (Claude, GPT и др.) казахский передаётся явно как «Kazakh (kk)», а не голым кодом | `src/services/translation/templates.ts` |
+| Тест-корпус: казахские примеры для определения языка страницы | `tests/fixtures/target-language-release-corpus.json` |
 | Описание в магазине расширений | `src/core/i18n/messages/product-descriptions.json` |
 
 ## Установка (для клиента)
@@ -21,6 +23,8 @@
 2. В Chrome откройте `chrome://extensions` и включите «Режим разработчика» (справа сверху).
 3. Нажмите «Загрузить распакованное» и выберите папку `ai-departament-perevodchik`.
 4. Откройте настройки расширения → «Язык перевода» → выберите нужный (например, «казахский»).
+
+Версия как userscript (Tampermonkey) не поддерживается: её тесты сверяют иконку и список языков оригинала.
 
 ## Сборка
 

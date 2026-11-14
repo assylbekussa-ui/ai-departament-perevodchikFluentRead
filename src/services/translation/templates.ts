@@ -82,7 +82,9 @@ function currentCustomBody(current: TranslationProviderConfigSnapshot, service =
 function fillPromptTemplate(template: string, origin: string, targetLanguage: string): string {
     const script = getChineseScript(targetLanguage);
     const targetName = script === 'Hans' ? 'Simplified Chinese (zh-Hans)'
-        : script === 'Hant' ? 'Traditional Chinese (zh-Hant)' : targetLanguage;
+        : script === 'Hant' ? 'Traditional Chinese (zh-Hant)'
+        // AI Департамент: голый код «kk» модели путают; казахский передаём явным названием.
+        : targetLanguage === 'kk' ? 'Kazakh (kk)' : targetLanguage;
     return template
         .replace(/\{\{to\}\}/gu, () => targetName)
         .replace(/\{\{origin\}\}/gu, () => origin);
