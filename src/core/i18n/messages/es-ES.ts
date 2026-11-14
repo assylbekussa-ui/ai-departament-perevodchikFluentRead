@@ -870,7 +870,7 @@ export const esESMessages = {
     'select.searchService': 'Buscar servicios de traducción',
     'select.noMatch': 'No hay opciones coincidentes',
     'select.noData': 'No hay opciones disponibles',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': 'No se pudo confirmar el ajuste de activación. Revisa la configuración e inténtalo de nuevo.',
     'floatingBall.mountPending': 'El botón flotante se está cargando. Si no aparece, actualiza esta página y vuelve a intentarlo.',
     'fullPage.progress.mountPending': 'El panel de progreso de traducción se está cargando. Si no aparece, actualiza esta página y vuelve a intentarlo.',

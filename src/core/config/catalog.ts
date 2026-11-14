@@ -771,6 +771,7 @@ export const multilingualTargetLanguageLabels: Readonly<Record<string, string>> 
     si: "සිංහල / Sinhala / 僧伽罗语",
     sw: "Kiswahili / Swahili / 斯瓦希里语",
     fil: "Filipino / Filipino / 菲律宾语",
+    kk: "Қазақша / Kazakh / 哈萨克语",
 };
 
 export const englishTargetLanguageLabels: Readonly<Record<string, string>> = {
@@ -826,6 +827,7 @@ export const englishTargetLanguageLabels: Readonly<Record<string, string>> = {
     si: "Sinhala",
     sw: "Swahili",
     fil: "Filipino",
+    kk: "Kazakh",
 };
 
 const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<string, string>>>> = {
@@ -871,6 +873,7 @@ const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<str
         si: "シンハラ語 / Sinhala / සිංහල",
         sw: "スワヒリ語 / Swahili / Kiswahili",
         fil: "フィリピノ語 / Filipino / Filipino",
+        kk: "カザフ語 / Kazakh / Қазақша",
         "zh-Hans": "中国語（簡体字） / Simplified Chinese / 简体中文",
         "zh-Hant": "中国語（繁体字） / Traditional Chinese / 繁體中文",
         en: "英語 / English",
@@ -925,6 +928,7 @@ const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<str
         si: "싱할라어 / Sinhala / සිංහල",
         sw: "스와힐리어 / Swahili / Kiswahili",
         fil: "필리핀어 / Filipino / Filipino",
+        kk: "카자흐어 / Kazakh / Қазақша",
         "zh-Hans": "중국어 간체 / Simplified Chinese / 简体中文",
         "zh-Hant": "중국어 번체 / Traditional Chinese / 繁體中文",
         en: "영어 / English",
@@ -979,6 +983,7 @@ const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<str
         si: "cingalais / Sinhala / සිංහල",
         sw: "swahili / Swahili / Kiswahili",
         fil: "filipino / Filipino / Filipino",
+        kk: "kazakh / Kazakh / Қазақша",
         "zh-Hans": "chinois simplifié / Simplified Chinese / 简体中文",
         "zh-Hant": "chinois traditionnel / Traditional Chinese / 繁體中文",
         en: "anglais / English",
@@ -1033,6 +1038,7 @@ const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<str
         si: "сингальский / Sinhala / සිංහල",
         sw: "суахили / Swahili / Kiswahili",
         fil: "филиппинский / Filipino / Filipino",
+        kk: "казахский / Kazakh / Қазақша",
         "zh-Hans": "китайский (упрощённый) / Simplified Chinese / 简体中文",
         "zh-Hant": "китайский (традиционный) / Traditional Chinese / 繁體中文",
         en: "английский / English",
@@ -1087,6 +1093,7 @@ const localizedTargetLanguageLabels: Readonly<Record<string, Readonly<Record<str
         si: "cingalés / Sinhala / සිංහල",
         sw: "suajili / Swahili / Kiswahili",
         fil: "filipino / Filipino / Filipino",
+        kk: "kazajo / Kazakh / Қазақша",
         "zh-Hans": "Chino simplificado / Simplified Chinese / 简体中文",
         "zh-Hant": "Chino tradicional / Traditional Chinese / 繁體中文",
         en: "Inglés / English",
@@ -1128,9 +1135,9 @@ export const LEGACY_DEFAULT_USER_ROLES: readonly string[] = Object.freeze([
 
 export const defaultOption = {
     on: true,
-    uiLanguage: "zh-CN" as const,
+    uiLanguage: "ru-RU" as const,
     from: "auto",
-    to: "zh-Hans",
+    to: "ru",
     style: 1,
     display: 1,
     hotkey: "Control",

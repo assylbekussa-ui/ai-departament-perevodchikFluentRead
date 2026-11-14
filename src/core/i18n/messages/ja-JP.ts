@@ -870,7 +870,7 @@ export const jaJPMessages = {
     'select.searchService': '翻訳サービスを検索',
     'select.noMatch': '一致する選択肢がありません',
     'select.noData': '選択肢がありません',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': '有効・無効の設定を確認できません。設定を確認して再試行してください。',
     'floatingBall.mountPending': 'フローティングボタンを読み込んでいます。表示されない場合は、このページを再読み込みしてください。',
     'fullPage.progress.mountPending': '翻訳の進行状況パネルを読み込んでいます。表示されない場合は、このページを再読み込みしてください。',

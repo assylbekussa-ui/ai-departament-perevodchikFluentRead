@@ -870,7 +870,7 @@ export const frFRMessages = {
     'select.searchService': 'Rechercher un service de traduction',
     'select.noMatch': 'Aucune option correspondante',
     'select.noData': 'Aucune option disponible',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': 'Le réglage d’activation n’a pas pu être confirmé. Vérifiez les paramètres et réessayez.',
     'floatingBall.mountPending': 'Le bouton flottant se charge. S’il ne s’affiche pas, actualisez cette page et réessayez.',
     'fullPage.progress.mountPending': 'Le panneau de progression de traduction se charge. S’il ne s’affiche pas, actualisez cette page et réessayez.',

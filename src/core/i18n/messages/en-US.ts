@@ -1132,7 +1132,7 @@ export const enUSMessages = {
     'select.searchService': 'Search translation services',
     'select.noMatch': 'No matching options',
     'select.noData': 'No options available',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': 'The enable setting could not be confirmed. Check Settings and try again.',
     'floatingBall.mountPending': 'The floating button is still loading. If it does not appear, refresh this page and try again.',
     'fullPage.progress.mountPending': 'The translation progress panel is still loading. If it does not appear, refresh this page and try again.',

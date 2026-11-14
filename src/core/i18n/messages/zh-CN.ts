@@ -1127,7 +1127,7 @@ export const zhCNMessages = {
     'select.searchService': '搜索翻译服务',
     'select.noMatch': '没有匹配的选项',
     'select.noData': '暂无可选项',
-    'common.brand': '流畅阅读',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': '启停设置结果未确认，请打开设置检查后重试。',
     'floatingBall.mountPending': '悬浮球仍在加载。如果长时间没有显示，请刷新当前页面重试。',
     'fullPage.progress.mountPending': '翻译进度面板仍在加载。如果长时间没有显示，请刷新当前页面重试。',

@@ -870,7 +870,7 @@ export const koKRMessages = {
     'select.searchService': '번역 서비스 검색',
     'select.noMatch': '일치하는 옵션이 없습니다',
     'select.noData': '사용 가능한 옵션이 없습니다',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': '켜기/끄기 설정을 확인하지 못했습니다. 설정을 확인하고 다시 시도하세요.',
     'floatingBall.mountPending': '플로팅 버튼을 불러오는 중입니다. 표시되지 않으면 이 페이지를 새로고침해 주세요.',
     'fullPage.progress.mountPending': '번역 진행 패널을 불러오는 중입니다. 표시되지 않으면 이 페이지를 새로고침해 주세요.',

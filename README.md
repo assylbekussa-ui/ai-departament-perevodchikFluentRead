@@ -1,3 +1,5 @@
+> **AI Департамент Переводчик** — версия FluentRead с казахским языком и русским интерфейсом по умолчанию. Подробности: [AI-DEPARTAMENT.md](AI-DEPARTAMENT.md)
+
 <div align="center">
 
 <img src="./assets/brand/icon-512.png" alt="FluentRead" width="96" />

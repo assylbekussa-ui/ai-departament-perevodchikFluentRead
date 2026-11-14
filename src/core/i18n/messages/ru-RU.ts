@@ -870,7 +870,7 @@ export const ruRUMessages = {
     'select.searchService': 'Поиск сервиса перевода',
     'select.noMatch': 'Нет подходящих вариантов',
     'select.noData': 'Нет доступных вариантов',
-    'common.brand': 'FluentRead',
+    'common.brand': 'AI Департамент Переводчик',
     'userscript.toggleUnconfirmed': 'Не удалось подтвердить настройку включения. Проверьте настройки и повторите попытку.',
     'floatingBall.mountPending': 'Плавающая кнопка загружается. Если она не появляется, обновите эту страницу и повторите попытку.',
     'fullPage.progress.mountPending': 'Панель хода перевода загружается. Если она не появляется, обновите эту страницу и повторите попытку.',

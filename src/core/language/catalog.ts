@@ -58,4 +58,5 @@ export const translationLanguageOptions = [
     {value: "si", label: "සිංහල / Sinhala / 僧伽罗语"},
     {value: "sw", label: "Kiswahili / Swahili / 斯瓦希里语"},
     {value: "fil", label: "Filipino / Filipino / 菲律宾语"},
+    {value: "kk", label: "Қазақша / Kazakh / 哈萨克语"},
 ];
